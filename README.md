@@ -1,2 +1,3 @@
 # javascript-basico
-http://devdocs.io/javascript/ (estudo)
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript 
+http://devdocs.io/javascript/ 
