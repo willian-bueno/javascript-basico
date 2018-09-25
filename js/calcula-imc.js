@@ -16,7 +16,7 @@ for (var i = 0; i < pacientes.length; i++) {
     var peso = paciente.querySelector(".info-peso").textContent;
     var altura = paciente.querySelector(".info-altura").textContent;
     var imc = paciente.querySelector(".info-imc");
-    
+
     if (validaPeso(peso, apresentaMensagemError) & validaAltura(altura, apresentaMensagemError)) {
         imc.textContent = calculaImc(peso, altura);
     }
@@ -27,7 +27,7 @@ for (var i = 0; i < pacientes.length; i++) {
  * @param {string} msg 
  */
 function apresentaMensagemError(msg) {
-    if(imc.textContent != 0){    
+    if(imc.textContent != 0){
         imc.textContent = imc.textContent + " / "+ msg;
     }else{
         imc.textContent = msg;
