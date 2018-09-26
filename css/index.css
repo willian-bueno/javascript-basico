@@ -85,6 +85,7 @@ label{
 	width: 100%;
 }
 
+
 .campo-medio{
 	display: inline-block;
 	padding-right: .5em;
@@ -96,6 +97,12 @@ label{
 	padding: 10px 0px;
 }
 
+form{
+	border: 1px solid #ccc;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+}
 button{
 	padding: .5em 2em;
 	border: 0;
@@ -135,4 +142,8 @@ button[disabled=disabled], button:disabled {
 
 .paciente-invalido {
 	background-color: lightcoral;
+}
+
+span{
+	color: red;
 }
