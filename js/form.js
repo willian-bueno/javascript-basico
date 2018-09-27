@@ -22,7 +22,7 @@ function isPacienteValido(paciente) {
         validaPeso(paciente.peso),
         validaAltura(paciente.altura),
         validaGordura(paciente.gordura)
-    )
+    );
 
     erros.forEach(erro => {
         if(erro){
